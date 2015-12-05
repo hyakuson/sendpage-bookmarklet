@@ -4,7 +4,7 @@ javascript: (function () {
     scriptTag = document.createElement('script');
     scriptTag.src = "https://cdn.mlkcca.com/v2.0.0/milkcocoa.js";
     scriptTag.onload = function () {
-        var mk = new window.MilkCocoa('hotic23lr8n.mlkcca.com'),
+        var mk = new window.MilkCocoa('{YourAppId}.mlkcca.com'),
             ds = mk.dataStore('website'),
             memo = window.prompt("メモ", "");
         ds.push({
