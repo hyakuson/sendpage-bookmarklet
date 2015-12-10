@@ -1,0 +1,24 @@
+{
+  "name": "bookmarklet",
+  "version": "1.0.0",
+  "description": "今見ているページをMilkcocoaに送信するブックマークレットです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyakuson/sendpage-bookmarklet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyakuson/sendpage-bookmarklet/issues"
+  },
+  "homepage": "https://github.com/hyakuson/sendpage-bookmarklet#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.5.1"
+  }
+}
